@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 
-function App() {
+import Menu from './components/Menu';
+import Code from './components/Code';
+
+const App = () => {
+  const [selectedTopic, setSelectedTopic] = useState('time');
+
+  const handleClickItem = (topic) => {
+    setSelectedTopic(topic);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <header><h2>Fundaments of Javascript - By Kath_Code</h2></header>
+      <main className="container-fluid">
+        <article className="row">
+          <section className="col-md-4">
+            <Menu selectedTopic={selectedTopic} handleClickItem={handleClickItem} />
+          </section>
+
+          <section className="col-md-8">
+            <Code selectedTopic={selectedTopic} />
+          </section>
+        </article>
+      </main>
+    </React.Fragment>
   );
 }
 
