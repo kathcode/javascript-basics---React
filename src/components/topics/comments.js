@@ -1,7 +1,13 @@
 const comments = () => {
     /*
-        Scope determines the accessibility (visibility) of variables.
-        there are two types of scope: local and global
+        --- COMMENTS ---
+    */
+
+    // Single line comment
+
+    /*
+        This is a comment of multiple lines.
+        It's use to explain blocks of code.
     */
 }
 

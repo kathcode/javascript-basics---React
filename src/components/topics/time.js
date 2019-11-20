@@ -1,5 +1,9 @@
 const time = () => {
     /*
+      --- EVENT LOOP ---
+
+      Javascript runs as a single threaded. Just one thing happen at the time. 
+
       In principle, any task that has been delegated to the browser through a callback,
       must wait until all the instructions of the main program have been executed.
       For this reason, the waiting time defined in functions such as setTimeout,
