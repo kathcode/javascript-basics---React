@@ -5,7 +5,7 @@ import CodeSnippet from '../../../sharedComponents/CodeSnippet';
 import EventLoopImageYoutube from '../../../assets/eventloop.PNG';
 import EventLoopImage from '../../../assets/eventloop2.png'
 
-// Snipped
+// Snippet
 import { basicExample } from './snippets';
 
 // Styles

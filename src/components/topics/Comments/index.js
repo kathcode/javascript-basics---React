@@ -1,7 +1,7 @@
 import React from 'react';
 import CodeSnippet from '../../../sharedComponents/CodeSnippet';
 
-// Snipped
+// Snippet
 import { basicExample } from './snippets';
 
 const Comments = () => {
