@@ -6,7 +6,7 @@ import EventLoopImageYoutube from '../../../assets/eventloop.PNG';
 import EventLoopImage from '../../../assets/eventloop2.png'
 
 // Snipped
-import { basicExample } from './snippeds';
+import { basicExample } from './snippets';
 
 // Styles
 import { Footer } from './styled';
