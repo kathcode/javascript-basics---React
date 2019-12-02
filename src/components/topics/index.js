@@ -1,9 +1,9 @@
 import Comments from './comments';
-import Time from './time';
+import EventLoop from './EventLoop';
 import Scope from './scope';
 
 export const topics = {
-  time: { component: Time, text: 'The time in Javascript' },
+  eventLoop: { component: EventLoop, text: 'Event loop' },
   comments: { component: Comments, text: 'Comments' },
   scope: { component: Scope, text: 'Scope' }
 }
