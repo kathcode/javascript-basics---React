@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { CardItem } from './index.styled';
+import React from 'react';
+import { CardItem } from './styled';
 
 import { topics } from '../topics'
 
@@ -12,7 +12,7 @@ const Menu = ({ handleClickItem, selectedTopic }) => {
           <CardItem
             key={topic}
             onClick={() => handleClickItem(topic)}
-            active={selectedTopic === topic}
+            topicActive={selectedTopic === topic}
           >
             {topics[topic].text}
           </CardItem>
