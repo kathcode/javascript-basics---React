@@ -4,7 +4,7 @@ import Menu from './components/Menu';
 import Code from './components/Code';
 
 const App = () => {
-  const [selectedTopic, setSelectedTopic] = useState('time');
+  const [selectedTopic, setSelectedTopic] = useState('eventLoop');
 
   const handleClickItem = (topic) => {
     setSelectedTopic(topic);
@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <header><h2>Fundaments of Javascript - By Kath_Code</h2></header>
+      <header className="mb-5"><h2>Fundaments of Javascript - By Kath_Code</h2></header>
       <main className="container-fluid">
         <article className="row">
           <section className="col-md-4">
