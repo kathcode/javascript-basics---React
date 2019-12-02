@@ -1,4 +1,4 @@
-const comments = () => {
+const basicExample = () => {
     /*
         --- COMMENTS ---
     */
@@ -11,4 +11,6 @@ const comments = () => {
     */
 }
 
-export default comments;
+export {
+    basicExample
+};

@@ -1,4 +1,4 @@
-import Comments from './comments';
+import Comments from './Comments';
 import EventLoop from './EventLoop';
 import Scope from './scope';
 
