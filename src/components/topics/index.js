@@ -1,6 +1,6 @@
 import Comments from './Comments';
 import EventLoop from './EventLoop';
-import Scope from './scope';
+import Scope from './Scope';
 
 export const topics = {
   eventLoop: { component: EventLoop, text: 'Event loop' },
