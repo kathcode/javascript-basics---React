@@ -12,7 +12,7 @@ const Comments = () => {
         <CodeSnippet stringCode={`${basicExample}`} />
       </section>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export default Comments;

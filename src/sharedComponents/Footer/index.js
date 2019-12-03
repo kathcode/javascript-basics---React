@@ -27,10 +27,10 @@ FooterContent.propTypes = {
     title: PropTypes.string,
     text: PropTypes.string
   }))
-}
+};
 
 FooterContent.defaultProps = {
   links: [{ link: '', text: '', title: '' }]
-}
+};
 
 export default FooterContent;

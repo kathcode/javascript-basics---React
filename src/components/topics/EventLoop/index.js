@@ -3,7 +3,7 @@ import CodeSnippet from '../../../sharedComponents/CodeSnippet';
 
 // Assets
 import EventLoopImageYoutube from '../../../assets/eventloop.PNG';
-import EventLoopImage from '../../../assets/eventloop2.png'
+import EventLoopImage from '../../../assets/eventloop2.png';
 
 // Snippet
 import { basicExample } from './snippets';
@@ -107,7 +107,7 @@ const eventLoop = () => {
         >You tube</a>
       </Footer>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export default eventLoop;
