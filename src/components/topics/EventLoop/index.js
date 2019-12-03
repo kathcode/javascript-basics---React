@@ -8,8 +8,8 @@ import EventLoopImage from '../../../assets/eventloop2.png'
 // Snippet
 import { basicExample } from './snippets';
 
-// Styles
-import { Footer } from './styled';
+// Shared components
+import Footer from '../../../sharedComponents/Footer';
 
 const eventLoop = () => {
   return (

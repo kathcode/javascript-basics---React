@@ -4,12 +4,14 @@ import CodeSnippet from '../../../sharedComponents/CodeSnippet';
 // Snippet
 import { localScope, globalScope } from './snippets';
 
+// Shared components
+import Footer from '../../../sharedComponents/Footer';
+
 const Scope = () => (
   <React.Fragment>
     <section>
       <h1>Scope</h1>
       <article>
-        Is the current context of the execution.
         Determines the accessibility (visibility) of variables.
         there are two types of scope:
         <ul>
@@ -38,6 +40,10 @@ const Scope = () => (
         <CodeSnippet stringCode={`${globalScope}`} />
       </article>
     </section>
+
+    <Footer>
+      
+    </Footer>
   </React.Fragment>
 );
 
