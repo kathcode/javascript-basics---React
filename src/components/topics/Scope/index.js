@@ -41,9 +41,9 @@ const Scope = () => (
       </article>
     </section>
 
-    <Footer>
-      
-    </Footer>
+    <Footer links={[
+      { title: 'scotch.io', text: 'Scotch.io', link: 'https://scotch.io/tutorials/understanding-scope-in-javascript' }
+    ]} />
   </React.Fragment>
 );
 
