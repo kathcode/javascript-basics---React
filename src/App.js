@@ -8,7 +8,7 @@ const App = () => {
 
   const handleClickItem = (topic) => {
     setSelectedTopic(topic);
-  }
+  };
 
   return (
     <React.Fragment>
@@ -26,6 +26,6 @@ const App = () => {
       </main>
     </React.Fragment>
   );
-}
+};
 
 export default App;
