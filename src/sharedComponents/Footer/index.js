@@ -6,16 +6,19 @@ import { Footer } from './styled';
 
 
 const FooterContent = ({ children, links }) => (
-  <Footer>
+  <Footer className="mt-5 p-3">
     {children && children}
     {!children && links.length > 0 &&
-      links.map((link) => (
-        <a
-          key={link.text}
-          href={link.link}
-          title={link.title}
-        >{link.text}</a>
-      ))
+      <React.Fragment>
+        <span>References: </span>
+        {links.map((link) => (
+          <a
+            key={link.text}
+            href={link.link}
+            title={link.title}
+          >{link.text}</a>
+        ))}
+      </React.Fragment>
     }
   </Footer>
 );
