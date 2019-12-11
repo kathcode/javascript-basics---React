@@ -1,4 +1,5 @@
 import React from 'react';
+import PropType from 'prop-types';
 
 import { topics } from '../topics';
 
@@ -11,6 +12,10 @@ const Code = ({ selectedTopic }) => {
       <Topic />
     </React.Fragment>
   );
-}
+};
+
+Code.propTypes = {
+  selectedTopic: PropType.string.isRequired
+};
 
 export default Code;

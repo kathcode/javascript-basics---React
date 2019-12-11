@@ -1,7 +1,7 @@
 const basicExample = () => {
-  console.log('a')
-  console.log('b')
-  console.log('c')
+  console.log('a');
+  console.log('b');
+  console.log('c');
 
   /*
     Console:
@@ -10,19 +10,19 @@ const basicExample = () => {
     c
   */
 
-  console.log('a')
+  console.log('a');
   setTimeout(function() {
-    console.log('b')
-  }, 2000)
-  console.log('c')
+    console.log('b');
+  }, 2000);
+  console.log('c');
   /*
     Console:
     a
     c
     b
   */
-}
+};
 
 export {
   basicExample
-}
+};

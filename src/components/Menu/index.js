@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { CardItem } from './styled';
 
-import { topics } from '../topics'
+import { topics } from '../topics';
 
 const Menu = ({ handleClickItem, selectedTopic }) => {
   return (
@@ -21,6 +22,15 @@ const Menu = ({ handleClickItem, selectedTopic }) => {
       </nav>
     </React.Fragment>
   );
-}
+};
+
+Menu.propTypes = {
+  handleClickItem: PropTypes.func,
+  selectedTopic: PropTypes.string.isRequired
+};
+
+Menu.defaultProps = {
+  handleClickItem: () => {}
+};
 
 export default Menu;

@@ -11,23 +11,23 @@ const localScope = () => {
     currentDay()    => "Hi, today is Monday"
     date            => date is not defined
   */
-}
+};
 
 const globalScope = () => {
  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
  function currentMonth() {
    var date = new Date();
-   var monthNumer = date.getMonth();
+   var monthNumber = date.getMonth();
 
-   return `Hi we are in ${months[monthNumer]}`;
+   return `Hi we are in ${months[monthNumber]}`;
  }
  
  /* console:
    currentMonth()   => "Hi we are in January"
    months           => ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
  */
-}
+};
 
 export {
   localScope,
