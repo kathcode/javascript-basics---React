@@ -4,7 +4,7 @@ import Menu from './components/Menu';
 import Code from './components/Code';
 
 const App = () => {
-  const [selectedTopic, setSelectedTopic] = useState('eventLoop');
+  const [selectedTopic, setSelectedTopic] = useState('apply');
 
   const handleClickItem = (topic) => {
     setSelectedTopic(topic);
